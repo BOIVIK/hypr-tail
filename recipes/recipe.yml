@@ -113,8 +113,8 @@ modules:
           - org.kde.filelight
           - com.github.marktext.marktext
       - scope: user  # Also add Flathub user repo, but no user packages
-  - type: fonts
-    fonts:
-      nerd-fonts: [FiraCode, JetBrainsMono, NerdFontsSymbolsOnly, CaskaydiaCove, GeistMono, IosevkaTerm, ZedMono]
-      google-fonts: [Inter, Libre Baskerville, Lora, Noto Color Emoji, Noto Sans, Roboto, Space Mono]
+  # - type: fonts
+  #   fonts:
+  #     nerd-fonts: [FiraCode, JetBrainsMono, NerdFontsSymbolsOnly, CaskaydiaCove, GeistMono, IosevkaTerm, ZedMono]
+  #     google-fonts: [Inter, Libre Baskerville, Lora, Noto Color Emoji, Noto Sans, Roboto, Space Mono]
   - type: signing  # this sets up the proper policy & signing files for signed images to work fully
