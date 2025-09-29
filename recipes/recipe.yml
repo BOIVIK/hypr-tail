@@ -61,6 +61,7 @@ modules:
         - bat
         - fd-find
         - ripgrep
+        - fuzzel
         - fzf
         - tree
         - git
