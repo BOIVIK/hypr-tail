@@ -1,0 +1,60 @@
+type: fonts
+fonts:
+  nerd-fonts:
+    - FiraCode # don't add spaces or "Nerd Font" suffix.
+    - Hack
+    - SourceCodePro
+    - Terminus
+    - JetBrainsMono
+    - NerdFontsSymbolsOnly
+    - AdwaitaMono
+    - BigBlueTerm
+    - CaskaydiaCove
+    - ComicShannsMono
+    - DepartureMono
+    - FantasqueSansM
+    - GeistMono
+    - GohuFont
+    - Iosevka
+    - IosevkaTerm
+    - Lilex
+    - RobotoMono
+    - Symbols
+    - UbuntuMono
+    - ZedMono
+  google-fonts:
+    - Alice
+    - Archivo
+    - Bricolage Grotesque
+    - Cantarell
+    - Cinzel
+    - Cutive
+    - Cutive Mono
+    - Danfo
+    - EB Garamond
+    - Geist
+    - Geist Mono
+    - IBM Plex Mono
+    - IBM Plex Sans
+    - Inter
+    - Khula
+    - League Gothic
+    - League Spartan
+    - Libre Baskerville
+    - Lora
+    - Noto Color Emoji
+    - Noto Sans
+    - Open Sans
+    - PT Mono
+    - Poppins
+    - Roboto
+    - Sail
+    - Six Caps
+    - Sora
+    - Space Grotesk
+    - Space Mono
+    - Suse
+    - Work Sans
+    - Yatra One
+    - Young Serif
+
