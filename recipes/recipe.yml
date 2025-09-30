@@ -18,7 +18,7 @@ modules:
         destination: /  # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: dnf
     repos:
-      copr: [atim/starship]
+      copr: [atim/starship, solopasha/hyprland]
     install:
       packages:
         # Original packages
@@ -35,6 +35,15 @@ modules:
         - wl-clipboard
         - swayidle
         - foot
+
+        # Hyprland ecosystem (from solopasha/hyprland COPR)
+        - hyprsunset
+        - hyprpicker
+        - pyprland
+        - hyprprop
+        - hyprpaper
+        - hypridle
+        - hyprlock
 
         # Desktop portals (essential for Wayland)
         - xdg-desktop-portal
