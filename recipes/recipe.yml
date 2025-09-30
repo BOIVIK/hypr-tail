@@ -65,19 +65,20 @@ modules:
         - nautilus
 
         # Essential utilities
-        - fastfetch
-        - htop
         - bat
+        - fastfetch
         - fd-find
-        - ripgrep
         - fuzzel
         - fzf
-        - tree
         - git
+        - htop
+        - kde-connect
+        - ripgrep
         - rsync
+        - tar
+        - tree
         - unzip
         - zip
-        - tar
 
         # Text editors
         - helix
@@ -87,6 +88,7 @@ modules:
         - git-lfs
         - nodejs
         - nodejs-npm
+        - qalculate-gtk
 
         # Multimedia basics
         - ffmpeg-free
