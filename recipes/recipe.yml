@@ -57,6 +57,7 @@ modules:
         - playerctl
         - udisks2
         - ntfs-3g
+        - NetworkManager-tui
 
         # File management
         - thunar
